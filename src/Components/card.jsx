@@ -30,7 +30,7 @@ const Card = ({image}) => {
 						<img
 							id='pic'
 							src={image.img}
-							alt="It's my image..."
+							alt={image.name}
 						/>
 					</div>
 					<div className='short'>
