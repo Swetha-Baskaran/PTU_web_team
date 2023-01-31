@@ -99,7 +99,6 @@ function App() {
 	return (
 		<>
 			<h1 style={{textAlign: "center", padding: "2rem 0 1rem 0"}}>PTU Web Team</h1>
-			<p style={{textAlign: "center", paddingBottom: "2rem"}}>Pillars of Puducherry Technological University</p>
 			<div className='App'>
 				{developers.map((e, index) => {
 					return <Card image={e} key={index} />;
